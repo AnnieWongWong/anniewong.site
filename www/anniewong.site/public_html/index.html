@@ -46,6 +46,15 @@
       margin: 20px;
       margin-left: 27px;
     }
+
+    #HW2 > section {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .lang {
+      width: 25%;
+    }
   </style>
   <link rel="icon" type="image/png" href="../images/darkblueminicon.png" sizes="16x16">
 </head>
@@ -60,12 +69,11 @@
   <main>
 
     <section id="HW1">
-      <h3>Homework 1</h3>
+      <h3>Haaomework 1</h3>
       <section class="innerContent">
         <ul>
-          <li><a href="./a.html">PHP</a></li>
-          <li><a href="./a.html">Node</a></li>
-          <li><a href="./a.html">Analytics</a></li>
+          <li><a href="./hw1/hello.php">PHP</a></li>
+          <li><a href="./hw1/report.html">Analytics</a></li>
         </ul>
       </section>
     </section>
@@ -73,7 +81,46 @@
     <section id="HW2">
       <h3>Homework 2</h3>
       <section class="innerContent">
-        <p>TBD</p>
+        <ul class="lang">
+          <p>C</p>
+          <li><a href="cgi-bin/C/c-hello-html-world.cgi">Hello, C!</a></li>
+          <li><a href="cgi-bin/C/c-hello-json-world.cgi">Hello, C! (JSON)</a></li>
+          <li><a href="cgi-bin/C/c-env.cgi">Environment Variables</a></li>
+          <li><a href="cgi-bin/C/c-get-echo.cgi">GET Echo</a></li>
+          <li><a href="cgi-bin/C/c-post-echo.cgi">POST Echo</a></li>
+          <li><a href="cgi-bin/C/c-general-request-echo.cgi">General Echo</a></li>
+          <li><a href="/c-cgiform.html">Sessioning</a></li>
+        </ul>
+        <ul class="lang">
+          <p>Go</p>
+          <li><a href="./cgi-bin/Go/go-hello-html-world.go">Hello, Go!</a></li>
+          <li><a href="./cgi-bin/Go/go-hello-json-world.go">Hello, Go! (JSON)</a></li>
+          <li><a href="./cgi-bin/Go/go-environment.go">Environment Variables</a></li>
+          <li><a href="./cgi-bin/Go/go-get-echo.go">GET Echo</a></li>
+          <li><a href="./cgi-bin/Go/go-post-echo.go">POST Echo</a></li>
+          <li><a href="./cgi-bin/Go/go-general-request-echo.go">General Echo</a></li>
+          <li><a href="./cgi-bin/Go/go-state-demo.go">Sessioning</a></li>
+        </ul>
+        <ul class="lang">
+          <p>Perl</p>
+          <li><a href="cgi-bin/Perl/perl-hello-html-world.pl">Hello, Perl!</a></li>
+          <li><a href="cgi-bin/Perl/perl-hello-json-world.pl">Hello, Perl! (JSON)</a></li>
+          <li><a href="cgi-bin/Perl/perl-env.pl">Environment Variables</a></li>
+          <li><a href="cgi-bin/Perl/perl-get-echo.pl">GET Echo</a></li>
+          <li><a href="cgi-bin/Perl/perl-post-echo.pl">POST Echo</a></li>
+          <li><a href="cgi-bin/Perl/perl-general-echo.pl">General Echo</a></li>
+          <li><a href="/perl-cgiform.html">Sessioning</a></li>
+        </ul>
+        <ul class="lang">
+          <p>Python</p>
+          <li><a href="./cgi-bin/Python/py-hello-html-world.py">Hello, Python!</a></li>
+          <li><a href="./cgi-bin/Python/py-hello-json-world.py">Hello, Python! (JSON)</a></li>
+          <li><a href="./cgi-bin/Python/py-environment.py">Environment Variables</a></li>
+          <li><a href="./cgi-bin/Python/py-get-echo.py">GET Echo</a></li>
+          <li><a href="./cgi-bin/Python/py-post-echo.py">POST Echo</a></li>
+          <li><a href="./cgi-bin/Python/py-general-request-echo.py">General Echo</a></li>
+          <li><a href="./cgi-bin/Python/py-state-demo.py">Sessioning</a></li>
+        </ul>
       </section>
     </section>
 
